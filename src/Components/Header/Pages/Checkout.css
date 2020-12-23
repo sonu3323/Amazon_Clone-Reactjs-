@@ -1,0 +1,137 @@
+.checkout__header {
+  display: flex;
+  object-fit: contain;
+}
+
+.checkout__headerImg {
+  object-fit: contain;
+  width: 500px;
+  flex: 1;
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+}
+
+.checkout__summary {
+  border: 1px solid lightblue;
+  background: beige;
+  padding: 20px 50px;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+.checkout {
+  margin: 50px 20px;
+  display: flex;
+  align-items: flex-start;
+  /* margin-top: -50px; */
+}
+
+.checkout__details {
+  flex: 1;
+}
+
+.chekcout__summaryPrice {
+  padding: 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.chekcout__cart {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.checkout__img {
+  object-fit: contain;
+  width: 100px;
+  padding: 0 5px;
+  flex: 0;
+}
+
+.checkout__body {
+  flex: 1;
+  margin-left: 10%;
+}
+
+.checkout__price {
+  padding: 10px 0;
+}
+
+.checkout__button {
+  background: #cd9042 !important;
+}
+
+.checkout__empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.checkout__emptyCart {
+  font-size: 40px !important;
+  color: #cd9042 !important;
+  margin-left: 5px;
+}
+
+.checkout__loginCheck {
+  text-align: center;
+  margin: 30px;
+}
+
+.checkout__link {
+  text-decoration: none;
+}
+
+.checkout__button {
+  background: #cd9042;
+  margin: 20px 0px !important;
+}
+
+@media (max-width: 500px) {
+  .checkout__headerImg {
+    object-fit: contain;
+    width: 200px;
+    mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+  }
+
+  .checkout__img {
+    object-fit: contain;
+    width: 60px;
+    padding: 0 5px;
+    flex: 0;
+  }
+
+  .checkout__body {
+    font-size: 0.5rem;
+    margin-left: 5%;
+  }
+
+  .checkout__button {
+    font-size: 0.5rem !important;
+    padding: 5px !important;
+  }
+
+  .checkout__emptyCart {
+    font-size: 50px !important;
+    color: #cd9042 !important;
+    margin-left: 5px;
+  }
+
+  .checkout h1 {
+    font-size: 1rem;
+  }
+
+  .checkout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checkout__emptyText {
+    font-size: 1rem;
+  }
+
+  .checkout__summary {
+    padding: 20px;
+  }
+}

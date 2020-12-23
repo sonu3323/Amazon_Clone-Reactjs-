@@ -1,0 +1,48 @@
+.home {
+  z-index: -1;
+}
+
+.home__img {
+  width: 100%;
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+}
+
+.card__row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.home__product {
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  margin-left: 60px;
+}
+
+.product__fashion {
+  margin-left: 40px;
+}
+
+@media (max-width: 500px) {
+  .home__product {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card__title {
+    margin-left: 20px;
+    font-size: 1rem;
+  }
+
+  .product__fashion {
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+}
